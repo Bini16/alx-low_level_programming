@@ -1,8 +1,3 @@
-/*
- * File: 100-print_comb3.c
- * Auth: BINIYAM Asfaw
- */
-
 #include <stdio.h>
 
 /**
