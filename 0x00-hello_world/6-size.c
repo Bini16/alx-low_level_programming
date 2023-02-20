@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - A program prints size of various computers type
- * Return: 0.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -9,6 +10,6 @@ int main(void)
 	printf("size of an int: %zu byte(s)\n", sizeof(int));
 	printf("size of a long int: %zu byte(s)\n", sizeof(long int));
 	printf("size of a long long int: %zu byte(s)\n", sizeof(long long int));
-	printf("size of a float %zu byte(s)\n", sizeof(float));
+	printf("size of a float: %zu byte(s)\n", sizeof(float));
 	return (0);
 }
