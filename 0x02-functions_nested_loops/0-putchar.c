@@ -1,10 +1,10 @@
 #include "main.h"
+
 /**
- * main - Prints _putchar  followed by a new line.
- * written by Bini
+ * main - Prints _puchar  followed by a new line.
+ *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	_putchar('H');
@@ -17,5 +17,6 @@ int main(void)
 	_putchar('o');
 	_putchar('n');
 	_putchar('\n');
+
 	return (0);
 }
